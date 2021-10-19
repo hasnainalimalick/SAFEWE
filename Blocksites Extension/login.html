@@ -1,0 +1,124 @@
+<html>
+   <head>
+      <title>Settings - Block Sites</title>
+      <link rel="stylesheet" href="bootstrap/css//bootstrap.min.css"/>
+      <link rel="stylesheet" href="options.css"/>
+      <script src="jquery.min.js"/>
+         <script src="bootstrap/js/bootstrap.min.js">
+      </script>
+      <script src="js/login.js"></script>
+      <style>
+         .bg-primary{
+         background-color: #6ec05d!important;
+         background:#6ec05d !important;
+         }
+         body{
+         background-image: url("images/Background.jpg");
+         background-position: center; /* Center the image */
+         background-repeat: no-repeat; /* Do not repeat the image */
+         background-size: cover; /* Resize the background image to cover the entire container */
+         }
+         nav{
+         padding-top:0px !important;
+         padding-bottom: 0px !important;
+         }
+         .navbar-brand{
+         padding:0px !important;
+         }
+         .nav-link{
+         padding:20px !important;
+         }
+         .activeMenu{
+         background-color: #000;
+         }
+         .nav-link:hover{
+         background-color: #000;
+         }
+         .btn-primary{
+         background-color: #6ec05d!important;
+         border-color:#6ec05d!important;
+         }
+         .btn-primary:hover{
+         background-color: #000 !important;
+         border-color:#000 !important;
+         }
+         footer a{
+         color: #fff !important;
+         }
+         footer{
+         background-color: #6ec05d;
+         padding:10px;
+         }
+         .whietshadow {
+         margin-top:30px;
+         margin-bottom: 30px;
+         }
+         .borderhere{
+         border-right:1px solid #fff;
+         }
+         .footerbottom{
+         background-color: #6ec05d;
+         margin-top:20px;
+         padding:10px;
+         font-weight: 600;
+         }
+         .borderhere h1{
+         margin-bottom: 40px;
+         }
+         .padinglogob{
+         margin-bottom: 20px;
+         }
+         #ark_addwebsite{
+         height: 50px;
+         }
+         .msghere{
+         color: #6ec05d;
+         font-size:20px;
+         font-weight: 600;
+         margin-top:20px;
+         display: none;
+         }
+      </style>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+         <a class="navbar-brand" href="#"><img src="icon-white.png" class="logo"/></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="/options.html">Dashboard</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/websites.html">Blocked Websites</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/keywords.html">Blocked Keywords</a>
+               </li>
+               <li class="nav-item activeMenu">
+                  <a class="nav-link" href="/login.html">Login</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div class="shadowwhite">
+         <div class="headerbg">
+            Login
+         </div>
+         <br>
+         <div class="container-fluid">
+            <div class="form-group">
+               <label for="uname">User Name</label>
+               <input type="text" class="form-control" id="uname"  placeholder="User Name">
+            </div>
+            <div class="form-group">
+               <label for="password">Password</label>
+               <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <button type="submit" id="loginhere" class="btn btn-primary">Login</button>
+         </div>
+      </div>
+   </body>
+</html>

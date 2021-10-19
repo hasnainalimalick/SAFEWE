@@ -1,0 +1,172 @@
+<html>
+   <head>
+      <title>Websites - Block Sites</title>
+      <link rel="stylesheet" href="bootstrap/css//bootstrap.min.css"/>
+      <link rel="stylesheet" href="options.css"/>
+      <script src="jquery.min.js"></script>
+      <script src="bootstrap/js/proper.js"></script>
+      <script src="bootstrap/js/bootstrap.min.js"></script>
+      <script src="js/websites.js"></script>
+      <style>
+         .bg-primary{
+         background-color: #6ec05d!important;
+         background:#6ec05d !important;
+         }
+         body{
+         background-image: url("images/Background.jpg");
+         background-position: center; /* Center the image */
+         background-repeat: no-repeat; /* Do not repeat the image */
+         background-size: cover; /* Resize the background image to cover the entire container */
+         }
+         nav{
+         padding-top:0px !important;
+         padding-bottom: 0px !important;
+         }
+         .navbar-brand{
+         padding:0px !important;
+         }
+         .nav-link{
+         padding:20px !important;
+         }
+         .activeMenu{
+         background-color: #000;
+         }
+         .nav-link:hover{
+         background-color: #000;
+         }
+         .btn-primary{
+         background-color: #6ec05d!important;
+         border-color:#6ec05d!important;
+         }
+         .btn-primary:hover{
+         background-color: #000 !important;
+         border-color:#000 !important;
+         }
+         footer a{
+         color: #fff !important;
+         }
+         footer{
+         background-color: #6ec05d;
+         padding:10px;
+         }
+         .whiteshadow {
+         margin-top:30px;
+         margin-bottom: 30px;
+         }
+         .borderhere{
+         border-right:1px solid #fff;
+         }
+         .footerbottom{
+         background-color: #6ec05d;
+         margin-top:20px;
+         padding:10px;
+         font-weight: 600;
+         }
+         .borderhere h1{
+         margin-bottom: 40px;
+         }
+         .padinglogob{
+         margin-bottom: 20px;
+         }
+         #ark_addwebsite{
+         height: 50px;
+         }
+         .msghere{
+         color: #6ec05d;
+         font-size:20px;
+         font-weight: 600;
+         margin-top:20px;
+         display: none;
+         }
+      </style>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+         <a class="navbar-brand" href="#"><img src="icon-white.png" class="logo"/></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="/options.html">Dashboard</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link activeMenu" href="/websites.html">Blocked Websites</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/keywords.html">Blocked Keywords</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="/login.html">Login</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <br><br>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-6 mx-auto">
+               <div class="row">
+                  <div class="col-8">
+                     <input class="form-control form-control-lg" id="ark_domainUrl" type="text" placeholder="Domain Url">
+                  </div>
+                  <div class="col-4">
+                     <button type="button"  id="ark_addwebsite" class="btn btn-primary">Add Website</button>
+                  </div>
+               </div>
+               <div class="msghere">
+                  Domain Has Been Added To Block List!
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container whietshadow">
+         <div class="headerbg" style="text-align: left;padding-left: 5px;padding-right: 5px;">
+            <div class="row">
+               <div class="col-9">
+                  Blocked Websites List       
+               </div>
+               <div class="col-3 text-right">
+               </div>
+            </div>
+         </div>
+         <div class="bodywh" id="websiteslistark">
+         </div>
+      </div>
+      <footer class="container-fluid">
+         <div class="row">
+            <div class="col-md-4 borderhere">
+               <h2>About</h2>
+               <p>SAFEWE is the extension and website to block websites and keywords.
+                  There is no limit has been set, websites and keywords can be blocked as per requirement.
+                  SAFE has an additional feature as well where an admin would be able to control their audience.
+                  Admin can create category according to the audience and set permission for every category separately.
+                  Experience the SAFEWE to do what matters most.
+               </p>
+            </div>
+            <div class="col-md-4 borderhere">
+               <h2>Privacy Policy</h2>
+               <p>The type of information we collect will depend upon the services you use, how you use them and what you choose
+                  to provide. The type of data we collect direclty from you may include: - Name, PhoneNumber and email address.
+                  Company does not and will not share data to any organization for any purpose. The user information is securely
+                  saved in our system. 
+               </p>
+            </div>
+            <div class="col-md-4 borderhere">
+               <h2>Contact us</h2>
+               <p>hasnainalimalick@gmail.com</p>
+            </div>
+         </div>
+      </footer>
+      <div class="footerbottom">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col text-center">
+                  Made By 17SW12  & 17SW56
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
